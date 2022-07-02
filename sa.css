@@ -1,0 +1,173 @@
+*{
+
+	margin:0;
+	padding:0;
+	
+
+}
+
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+  display: block;
+  visibility: visible;
+}
+
+
+.navbar .dropdown .dropdown-menu a{
+	display: block;
+	width: 150px;
+	height: 40px;
+	padding: 0px;
+	border-bottom: 1px solid rgb(48,83,44);
+	text-align: center;
+	border-radius: 1px;
+	cursor: pointer;
+	background-color:rgb(141,204,134);
+}
+.navbar {
+	width: 100%;
+	height: 75px;
+	background-color:rgb(62,101,25);
+	
+}
+.navbar .collapse {
+	float: left;
+	margin-left: 420px;
+}
+.navbar .collapse .nav-item{
+	display: inline-block;
+	list-style: none;
+	line-height: 20px;
+	margin: 8px 12px; 
+}
+.navbar .collapse .nav-item a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Lucida Console;
+	color: white;
+	padding: 8px 5px;
+	transition: 1s;
+}
+
+
+
+#b{
+	display: inline-block; 
+	margin-left: 20px;
+	margin-top: 0px;
+	font-weight:bold;
+	font: 35px 'Oswald', serif;
+	color: mintcream;
+	text-shadow: 4px 4px 0 rgba(85,45,75,0.6);
+
+}
+
+h1{
+	color:rgb(90,63,48);
+	margin-left: 80px;
+	margin-top: 50px;
+	 font-weight:bold; 
+	 font-style: italic;
+
+
+}
+#yazı{
+	font-size: 14px; 
+	margin-left: 20px; 
+	margin-right: 20px; 
+	text-align:justify; 
+	font-family: cursive; 
+	margin-top: 30px;
+}
+#h22{
+	background-color: transparent;
+}
+h2{
+	color: rgb(118,80,61);
+	font-weight:bold; 
+	margin-left: 30px;
+	background: transparent	;	
+}
+#yazı3{
+	font-size: 14px; 
+	text-align:justify; 
+	font-family:  cursive; 
+	margin-top: 10px;
+}
+
+h3{
+	color: rgb(177,137,117);
+	margin-left: 80px;
+	margin-top: 50px;
+	 font-weight:bold; 
+}
+h4{
+	 
+	color: rgb(108,76,66);
+	font-family: sans-serif;
+	font-weight:bold; 
+
+
+}
+
+
+
+#h222{
+	color:rgb(118,80,61);
+	margin-left: 40px;
+	margin-top: 50px;
+	font-weight:bold; 
+	background-color: transparent;
+}
+#rsm1{
+	
+	border-color: rgba(85,45,75,0.7);
+	border-width: 3px;
+}
+td a img:hover{
+	transform: rotateZ(10deg);
+}
+td img:hover{
+	transform: rotateZ(10deg);
+
+}
+
+#img1{
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+footer{
+
+	background-color: rgb(90,63,48);
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+
+}
+.girisyap{
+	margin:  auto;
+}
+.girisy{
+	background-image: url(img/g.jpg);
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -3px;
+
+}
+.gy{
+	position: relative;
+	top:  100px;
+
+}
+.gy1{
+	position: relative;
+	top:  60px;
+
+}
